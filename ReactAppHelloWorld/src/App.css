@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.full-screen {
+  display: flex;
+  justify-content: center;  /* vertical centering */
+  align-items: center;      /* horizontal centering */
+  flex-direction: column;
+  height: 100vh;            /* full viewport height */
+  text-align: center;
+}
